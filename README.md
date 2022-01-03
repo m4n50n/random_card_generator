@@ -1,4 +1,4 @@
-# ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) Random Card Dealer in Javascript, HTML and CSS
+# ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) Random Card Generator in Javascript, HTML and CSS
 
 ✏ *Changing website styles during the runtime using Vanilla JS. Inspired in **./preview.gif***.
 
@@ -20,7 +20,7 @@ pip3 install flask && python3 server.py
 
 ## Instructions 📄
 
-* The ***New card*** button generates a new card..
+* The ***New card*** button generates a new card.
 * A new card will be generated every 10 seconds.
 * The user can specify the card width and height using text inputs.
 
