@@ -31,9 +31,11 @@ const SetTimer = () => window.setInterval(SetRandomCard, 10000); // Generate car
 
 const Resizecard = () => {
     const NewWidth = parseInt(document.querySelector("#new-width").value);
+    const NewHeight = parseInt(document.querySelector("#new-height").value);
     
-    if (!isNaN(NewWidth) || NewWidth > 0) { 
+    if (!isNaN(NewWidth) && NewWidth > 0 && !isNaN(NewHeight) && NewHeight > 0) { 
         MainCard.style.width = NewWidth + "px";
+        MainCard.style.height = NewHeight + "px";
     }
 }
 

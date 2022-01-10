@@ -24,14 +24,14 @@
       <div class="row my-3">
         <div class="d-flex justify-content-center gap-3 col-12">
           <button type="button" class="btn btn-sm btn-warning shadow-none" onclick="SetRandomCard()"><strong>GENERATE</strong> a new card</button>
-          <button type="button" class="btn btn-sm btn-outline-light shadow-none" data-bs-toggle="modal" data-bs-target="#ModalDimensions">Set card <strong>WIDTH</strong></button>
+          <button type="button" class="btn btn-sm btn-outline-light shadow-none" data-bs-toggle="modal" data-bs-target="#ModalDimensions">Set card <strong>WIDTH</strong> and <strong>HEIGHT</strong></button>
         </div>
       </div>
 
       <div class="row justify-content-center mx-2">
         <div class="main-card d-flex flex-column bg-white shadow-lg col-11">
-          <div class="main-icon"></div>
-          <div class="main-number align-self-center"></div>
+          <div class="main-icon flex-grow-1"></div>
+          <div class="main-number align-self-center flex-grow-1"></div>
           <div class="main-icon align-self-end"></div>
         </div>     
       </div>
@@ -42,15 +42,16 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header py-1 px-2">
-            <h5 class="modal-title" id="exampleModalLabel">Resize card</h5>
+            <h5 class="modal-title">Resize card</h5>
           </div>
           <div class="modal-body">
-            <p>Insert the new card <u>width</u> (<i>min: 150px</i>)</p>
+            <p>Insert the new card <u>width and height</u> in pixels (<i>min width: 150px / min height: 340px</i>)</p>
 
             <div class="input-group mb-3">
               <span class="input-group-text">Width</span>
-              <input type="number" class="form-control form-control-sm shadow-none" id="new-width">
-              <span class="input-group-text">px</span>
+              <input type="number" class="form-control form-control-sm shadow-none" id="new-width" placeholder="px">
+              <span class="input-group-text">Height</span>
+              <input type="number" class="form-control form-control-sm shadow-none" id="new-height" placeholder="px">
             </div>
           </div>
           <div class="modal-footer">
