@@ -20,9 +20,9 @@ pip3 install flask && python3 server.py
 
 ## Instructions 📄
 
-* The ***New card*** button generates a new card.
+* The ***GENERATE a new card*** button generates a new card.
 * A new card will be generated every 10 seconds.
-* The user can specify the card width and height using text inputs.
+* The ***Set card WIDTH*** button allow the user specify the card width using text input.
 
 ## Direct live demo 🎬
 
