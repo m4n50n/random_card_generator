@@ -15,7 +15,7 @@ body {
 
 .main-card {
     border-radius: 1rem;
-    width: 260px;
+    width: 235px;
     min-width: 150px;
     height: auto;
 }
@@ -28,7 +28,7 @@ body {
 
 /* -- CARD ICONS -- */
 .main-icon span {
-    font-size: 70px;
+    font-size: 60px;
 }
 
 .heart, .diamond {
