@@ -1,5 +1,7 @@
 # ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) Random Card Generator in Javascript, HTML and CSS
 
+![screenshot](https://raw.githubusercontent.com/m4n50n/random_card_generator/main/screenshot_preview.png)
+
 ✏ *Changing website styles during the runtime using Vanilla JS. Inspired in **./preview.gif***.
 
 ## What to do next?
